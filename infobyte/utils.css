@@ -1,0 +1,76 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.font-bold{
+    font-weight: bold;
+}
+.items-center{
+    align-items: center;
+    
+}
+.text-center{
+    text-align: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-2{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.text-grey{
+    color: rgb(107, 103, 103);
+}
+
+.iot{
+    width: 400px;
+    
+}
+.clr-dg{
+    background-color: #d9d9d9;
+}
+.clr-dp{
+    background-color: #9e9d9d;
+}
+.logo{
+    width: 220px;
+}
+.f-l{
+    font-size: 2rem;
+}

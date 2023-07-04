@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:80vw;
+    font-family: 'Inter', sans-serif;
+}
+.topleft{
+    width: 50%;
+    
+}
+.topright{
+    width: 50%;
+    
+}
+.section{
+    min-height: 80vh;
+}
+.btn{
+    padding: 5px 12px;
+    color: white;
+    border: 2px white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(0 0 42);
+}
+.pdd{
+    margin-top: 30vh;
+}
