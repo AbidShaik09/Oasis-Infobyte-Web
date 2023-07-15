@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Tektur:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outerdiv">
+        <div class="innerbox">
+            <p>Enter the Temperature</p>
+            <form class="flex" onsubmit="calculate(); return false">
+                <div>
+                    <input type="number"  id="temp">
+                    <select name="temp_cat" id="temp_cat">
+                        <option value="cel">Celsius</option>
+                        <option value="fah">Farenheit</option>
+                    </select>
+                </div>
+                <input type="submit" name="temp" value="Convert">
+
+            </form>
+            <span id="result">
+                
+            </span>
+        </div>
+    </div>
+    <footer>Made By - 
+        <a  href="https://www.linkedin.com/in/shaik-abid-hussain-a5552b1b9/" target="_blank">Shaik Abid Hussain</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
